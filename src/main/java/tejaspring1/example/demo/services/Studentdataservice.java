@@ -23,6 +23,10 @@ StudentRepo studentRepo;
         data.setAddress(stdaddress);
         database dataa= studentRepo.save(data);
 
+
+
+
+
         OutputStudent outputdata=new OutputStudent();
         outputdata.setSid(dataa.getStudentId());
         outputdata.setSname(dataa.getStudentName());
